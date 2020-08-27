@@ -5,5 +5,5 @@ dependencies {
     compile "net.chrisrichardson.examples.monolithic.customersandorders:customer-management:$customerManagementVersion"
     compile "net.chrisrichardson.examples.monolithic.customersandorders:order-management:$orderManagementVersion"
     compile "net.chrisrichardson.examples.monolithic.customersandorders:order-history:$orderHistoryVersion"
-    compile "org.springframework.boot:spring-boot-starter-actuator:$springBootVersion"
+    compile "org.springframework.boot:spring-boot-starter-actuator"
 }

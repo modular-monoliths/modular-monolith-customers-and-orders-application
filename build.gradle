@@ -31,6 +31,10 @@ subprojects {
         eventuateMavenRepoUrl.split(',').each { repoUrl -> maven { url repoUrl } }
     }
 
+    dependencies {
+        implementation(platform("net.chrisrichardson.examples.monolithic.customersandorders:modular-monolith-customers-and-orders-bom:$bomVersion"))
+    }
+
 }
 
 allprojects {
